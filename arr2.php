@@ -85,7 +85,7 @@
 
                     foreach ($names as $id => $monthName) {
                         if ($id <= 3) {
-                            echo "<b>$monthName</b> is $id month and it has: $days[$id] days. <br>";
+                            echo "<b>$monthName</b> is <b>$id</b> month and it has: <b>$days[$id]</b> days. <br>";
                         }
                     }
 
